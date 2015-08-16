@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/Users/Fabricia/Documents/NetBeansProjects/Compiler-ATID/src/org/atid/compiler/LexicalAnalyzer.java</file>
             <file>file:/C:/Users/Fabricia/Documents/NetBeansProjects/Compiler-ATID/src/org/atid/compiler/CompilerATID.java</file>
+            <file>file:/C:/Users/Fabricia/Documents/NetBeansProjects/Compiler-ATID/src/org/atid/compiler/TipoTokenEnum.java</file>
         </group>
     </open-files>
 </project-private>

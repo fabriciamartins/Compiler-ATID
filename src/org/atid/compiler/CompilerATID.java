@@ -5,6 +5,11 @@
  */
 package org.atid.compiler;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  *
  * @author Fabricia
@@ -16,6 +21,21 @@ public class CompilerATID {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Digite o trecho de codigo:\n");
+        String trecho = sc.nextLine();
+        
+        LexicalAnalyzer lexico = new LexicalAnalyzer();
+        lexico.analisar(trecho);
+        
+        List<String> lista = lexico.getTokens();
+        
+        for (String token : lista){
+            
+            System.out.println(token);
+        }
+        
     }
     
 }
